@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Image, Text, Button, StyleSheet } from 'react-native';
-import { images } from './imageList'; // Adjust the path according to your project structure
+import { images } from './imageList'; 
 
 export default function Gallery() {
     const [index, setIndex] = useState(0); // Start with the first image
